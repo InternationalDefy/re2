@@ -1,0 +1,16 @@
+[package]
+name = "re2_system"
+version = "0.1.0"
+authors = ["InternationalDefy <DTEye1533014901@126.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+glium = "0.25.1"
+image = "*"
+glam = "*"
+lazy_static = "1.4.0"
+re2_core = { path = "../re2-core" }
+re2_metadata = { path = "../re2-metadata" }
+re2_scene = { path = "../re2-scene" }
